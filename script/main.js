@@ -50,7 +50,7 @@ document.getElementById('verification').addEventListener('submit', function(e) {
     
     if (isPartner !== 'yes') {
         Swal.fire({
-            title: 'Apa? bukan pacar LipLip😒?, harus iya.',
+            title: 'Apa? bukan pacar Ikhsan😒?, harus iya.',
             text: 'Coba lagi dari awal.',
             icon: 'warning',
         }).then(() => {

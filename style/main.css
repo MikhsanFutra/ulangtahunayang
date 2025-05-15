@@ -4,10 +4,9 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  /* margin: 5;
-  padding: 2%; */
-  background-color: #FFCBCB;
+  background: linear-gradient(to bottom, #f6d8ae, #6a0572);
 }
+
 
 .song {
   visibility: hidden;
@@ -23,12 +22,13 @@ body {
   width: 100vw;
 }
 
-.container > div {
+.container>div {
   left: 0;
   position: absolute;
   right: 0;
   top: 20vh;
 }
+
 .form-container {
   max-width: 400px;
   margin: 50px auto;
@@ -37,12 +37,15 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .step-container {
   display: none;
 }
+
 .step-container.active {
   display: block;
 }
+
 #verificationForm {
   text-align: center;
 }
@@ -60,6 +63,7 @@ body {
 .three {
   font-size: 3rem;
 }
+
 .four .text-box {
   border: 3px solid #aaa;
   border-radius: 5px;
@@ -91,23 +95,29 @@ body {
   right: 5px;
 }
 
-.gif-left, .gif-right {
+.gif-left,
+.gif-right {
   position: absolute;
-  width: 130px; /* Adjust size as needed */
-  height: 130px; /* Adjust size as needed */
+  width: 130px;
+  /* Adjust size as needed */
+  height: 130px;
+  /* Adjust size as needed */
   z-index: 10;
 }
 
 .gif-left {
-  left: -120px; /* Adjust to place the GIF on the left */
+  left: -120px;
+  /* Adjust to place the GIF on the left */
 }
 
 .gif-right {
-  right: -120px; /* Adjust to place the GIF on the right */
+  right: -120px;
+  /* Adjust to place the GIF on the right */
 }
 
 .text-box img {
-  max-width: 100%; /* Ensure the images scale correctly */
+  max-width: 100%;
+  /* Ensure the images scale correctly */
 }
 
 
@@ -128,11 +138,13 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
 
@@ -150,7 +162,7 @@ body {
   /* height: auto; */
 }
 
-.six .hat  {
+.six .hat {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
@@ -175,7 +187,8 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -290,20 +303,28 @@ body {
   .six .hat {
     left: 32%;
   }
+
   .gif-left .gif-right {
-    width: 80px; /* Larger size for smaller screens */
-    height: 80px; /* Larger size for smaller screens */
-    left: 50%; /* Center the left GIF */
-    right: 50%; /* Center the right GIF */
-    transform: translateX(-50%); /* Properly align them in the center */
+    width: 80px;
+    /* Larger size for smaller screens */
+    height: 80px;
+    /* Larger size for smaller screens */
+    left: 50%;
+    /* Center the left GIF */
+    right: 50%;
+    /* Center the right GIF */
+    transform: translateX(-50%);
+    /* Properly align them in the center */
   }
 
   .gif-left {
-    top: 170px; /* Place the left GIF at the top */
+    top: 170px;
+    /* Place the left GIF at the top */
   }
 
   .gif-right {
-    bottom: 170px; /* Place the right GIF at the bottom */
+    bottom: 170px;
+    /* Place the right GIF at the bottom */
   }
 }
 
@@ -321,20 +342,28 @@ body {
     right: 5px;
   }
 
-  .gif-left, .gif-right {
-    width: 100px; /* Larger size for smaller screens */
-    height: 100px; /* Larger size for smaller screens */
-    left: 50%; /* Center the left GIF */
-    right: 50%; /* Center the right GIF */
-    transform: translateX(-50%); /* Properly align them in the center */
+  .gif-left,
+  .gif-right {
+    width: 100px;
+    /* Larger size for smaller screens */
+    height: 100px;
+    /* Larger size for smaller screens */
+    left: 50%;
+    /* Center the left GIF */
+    right: 50%;
+    /* Center the right GIF */
+    transform: translateX(-50%);
+    /* Properly align them in the center */
   }
 
   .gif-left {
-    top: -100px; /* Place the left GIF at the top */
+    top: -100px;
+    /* Place the left GIF at the top */
   }
 
   .gif-right {
-    bottom: -100px; /* Place the right GIF at the bottom */
+    bottom: -100px;
+    /* Place the right GIF at the bottom */
   }
 
   .idea-5 span {
